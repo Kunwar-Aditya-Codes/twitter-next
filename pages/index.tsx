@@ -6,12 +6,12 @@ import Widgets from '../components/Widgets'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className=" mx-auto max-h-screen overflow-hidden lg:max-w-6xl">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className=" grid grid-cols-9 ">
         <Sidebar />
         <Feed />
         <Widgets />
