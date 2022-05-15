@@ -8,4 +8,3 @@ export const fetchTweets = async () => {
 
   return tweets
 }
-

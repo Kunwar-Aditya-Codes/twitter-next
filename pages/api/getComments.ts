@@ -22,7 +22,5 @@ export default async function handler(
     tweetId,
   })
 
-  console.log(comments)
-
   res.status(200).json(comments)
 }
