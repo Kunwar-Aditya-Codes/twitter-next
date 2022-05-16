@@ -15,7 +15,7 @@ const Home = ({ tweets }: Props) => {
   return (
     <div className=" mx-auto max-h-screen overflow-hidden lg:max-w-6xl">
       <Head>
-        <title>Create Next App</title>
+        <title>Twitter 2.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Toaster />
